@@ -1,10 +1,10 @@
 # 必要工具
-+ [LSBSteg.py]:(http://github.com/RobinDavid/LSB-Steganography)
++ [LSBSteg.py](http://github.com/RobinDavid/LSB-Steganography)
 + base64&图片转换
 
 # 解水印步骤
 1. 利用LSBSteg.py脚本得到隐藏的文本
-```
+```shell
 python LSBSteg.py decode -i test.png -o info.txt
 ```
 2. 将得到的文本内容以base64转图片得到水印图片
